@@ -1,0 +1,36 @@
+$white: #fff !default;
+$gray-50: #f6f6f6 !default;
+$gray-100: #babfc7 !default;
+$gray-200: #ededed !default;
+$gray-300: #dae1e7 !default;
+$gray-400: #636363 !default;
+$gray-500: #adb5bd !default;
+$gray-600: #b8c2cc !default;
+$gray-700: #4e5154 !default;
+$gray-800: #1e1e1e !default;
+$gray-900: #2a2e30 !default;
+$black: #22292f !default;
+
+// cores mondrian
+$pink-mondrian: #FA0069 !default; 
+$black-mondrian: #333333 !default;
+$black-bg-login-mondrian: #1c1c1c !default;
+$withe-mondrian: #F6F9F9 !default;
+$green-mondrian: #00FA82 !default;
+$blue-mondrian: #00BEFA !default;
+$orange-mondrian: #FA6900 !default;
+$grey-mondrian: #777777 !default;
+$gray-light-mondrian: #f3f3f3 !default;
+$transparent: #00000000 !default;
+ 
+
+$primary: $pink-mondrian !default;
+$secondary: $black-mondrian !default;
+$info: $blue-mondrian !default;
+$warning: $orange-mondrian !default;
+$success: $green-mondrian !default;
+$light: $white !default;
+$dark: #4b4b4b !default;
+
+
+$chevron-down: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-chevron-down'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E";

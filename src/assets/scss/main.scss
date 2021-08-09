@@ -1,0 +1,54 @@
+* {
+  font-family: Montserrat;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  letter-spacing: 0.01rem;
+  body {
+    height: 100%;
+    background-color: $withe-mondrian;
+;
+    p {
+      line-height: 1.5rem;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px !important;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background-color: $transparent;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 5px;
+  background-color: $primary;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 5px;
+  background-color: $primary;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+
+}
+
+.vm--overlay {
+  background: rgba(27, 27, 27, 0.9) !important;
+}
+
+.text-gray {
+  color: $grey-mondrian;
+}
+
