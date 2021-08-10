@@ -1,0 +1,84 @@
+// $directions: left, top, bottom, right;
+// $startPostionS: 55, 98, 125, 146;
+
+// @each $startPostion in $startPostionS {  
+//   %metheor-#{$startPostion} {
+//     .metheor-#{startPostionS} {
+//       animation-name: animateMetheor-#{$startPostion};
+//       animation-duration: 7s;
+//       animation-timing-function: linear;
+//       animation-delay: 0s;
+//       animation-iteration-count: infinite;    
+//     }
+//     @keyframes animateMetheor-#{$startPostion} {
+//       0% {
+//         left: #{$startPostionS}px;
+//         top: 0%
+//       }
+//       100% {
+//         right: 100%;
+//         top: 100%
+//       }
+//     }
+//   }
+// }
+.metheor0 {
+    animation-name: animateMetheor1;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;    
+  }
+  
+  @keyframes animateMetheor1 {
+  0% {
+    left: 20%;
+    top: 0%
+  }
+  100% {
+    left: 100%;
+    top: 100%
+  }
+  }
+  
+
+  
+.metheor1 {
+    animation-name: animateMetheor2;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;    
+  }
+  
+  @keyframes animateMetheor2 {
+  0% {
+    right: -2%;
+    top: 54%
+  }
+  100% {
+    right: 100%;
+    top: 100%
+  }
+  }
+  
+
+  
+  .metheor2 {
+    animation-name: animateMetheor3;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;    
+  }
+  
+  @keyframes animateMetheor3 {
+  0% {
+    left: 0%;
+    bottom: 0%
+  }
+  100% {
+    left: 100%;
+    bottom: 100%
+  }
+  }
